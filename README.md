@@ -1,5 +1,7 @@
 # MIDI Poem Player
 
+🚀 **[Live Demo](https://kylemath.github.io/MidiRapper)** 🚀
+
 A web application that connects to your MIDI keyboard and speaks your poem word-by-word as you play notes. Each note you play sounds out, and the next word from your poem is spoken at that note's pitch - perfect for rapping!
 
 ## Features
