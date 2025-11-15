@@ -1,0 +1,11 @@
+{
+  "id": "MidiRapper",
+  "title": "MidiRapper",
+  "oneLiner": "Use a midi keyboard to say a set of entered words in different tones depending on which key is pressed to simulate rapping",
+  "demoUrl": "https://kylemath.github.io/MidiRapper",
+  "screenshot": "./screenshot.png",
+  "kind": "project",
+  "categories": ["fun", "music"],
+  "tags": ["fun", "music"],
+  "status": "published"
+}

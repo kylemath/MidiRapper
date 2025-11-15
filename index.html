@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIDI Poem Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎹 MIDI Poem Player</h1>
+            <p class="subtitle">Play notes and rap your poem word-by-word</p>
+        </header>
+
+        <div class="main-content">
+            <div class="input-section">
+                <label for="poem-input">Enter your poem:</label>
+                <textarea 
+                    id="poem-input" 
+                    placeholder="Type or paste your poem here...&#10;Example: To be or not to be, that is the question"
+                    rows="6"
+                ></textarea>
+            </div>
+
+            <div class="controls-section">
+                <div class="midi-status">
+                    <div id="midi-status" class="status-indicator">
+                        <span class="status-dot"></span>
+                        <span>No MIDI device connected</span>
+                    </div>
+                    <button id="connect-midi" class="btn-primary">Connect MIDI Keyboard</button>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <div class="current-word">
+                    <p>Current word:</p>
+                    <div id="current-word-display">—</div>
+                </div>
+                <div class="word-index">
+                    <p>Word <span id="word-index">0</span> of <span id="total-words">0</span></p>
+                </div>
+            </div>
+
+            <div class="instructions">
+                <h3>How to use:</h3>
+                <ol>
+                    <li>Type or paste your poem in the text area above</li>
+                    <li>Click "Connect MIDI Keyboard" and select your device</li>
+                    <li>Play notes on your MIDI keyboard - each note plays the note and speaks the next word from your poem at that note's pitch, advancing sequentially through the poem (perfect for rapping!)</li>
+                    <li>Play C, C#, D, E minor, etc. and the words will advance: word 1, word 2, word 3, word 4...</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
