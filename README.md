@@ -49,3 +49,10 @@ A web application that connects to your MIDI keyboard and speaks your poem word-
 
 Enjoy creating musical poetry! 🎵📝
 
+
+## Preview
+
+<p align="center">
+  <img src="screenshot.png" alt="Project screenshot" width="720" />
+</p>
+
